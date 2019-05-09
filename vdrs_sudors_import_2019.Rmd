@@ -11,7 +11,7 @@ load(".R_Cache/prelim_dth@.RData")
 
 </br>
 
-<h4 style='color:darkblue;font-weight:bold;background-color:white'>2019 file last update: `r file.info(file.path(prelim_dth, "deathfull2018pre.csv"))$mtime`</h4>
+<h4 style='color:darkblue;font-weight:bold;background-color:white'>2019 file last update: `r file.info(file.path(prelim_dth, "death2019.csv"))$mtime`</h4>
 
 </br>
 
