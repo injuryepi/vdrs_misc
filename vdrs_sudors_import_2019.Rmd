@@ -1,0 +1,38 @@
+---
+title: "Importing VDRS and SUDORS Data"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+load(".R_Cache/prelim_dth@.RData")
+
+```
+
+</br>
+
+<h4 style='color:darkblue;font-weight:bold;background-color:white'>2019 file last update: `r file.info(file.path(prelim_dth, "deathfull2018pre.csv"))$mtime`</h4>
+
+</br>
+
+```{r echo=FALSE, warning=FALSE, comment= NA}
+options(tidyverse.quiet = TRUE)
+
+source("Scripts/vdrs_sudors_2019.r")
+
+```
+</br>
+
+## Results  
+
+
+Done!
+
+files created:
+
+
+
+1.  **nvdrs** file with **`r nrow(d2019pre_nvdrs_sams)`** rows.    
+
+
+2.  **sudors** file with **`r nrow(d2019pre_sudors_sams)`** rows.    
