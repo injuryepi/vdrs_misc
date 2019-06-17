@@ -11,9 +11,7 @@ load(".R_Cache/prelim_dth@.RData")
 
 </br>
 
-<h4 style='color:darkblue;font-weight:bold;background-color:white'>2019 file last update: `r file.info(file.path(prelim_dth, "death2019.csv"))$mtime`</h4>
 
-</br>
 
 ```{r echo=FALSE, warning=FALSE, comment= NA}
 options(tidyverse.quiet = TRUE)
@@ -26,7 +24,9 @@ source("Scripts/vdrs_sudors_2019.r")
 ## Results  
 
 
-Done!
+<h4 style='color:darkblue;font-weight:bold;background-color:white'>2019 file last update: `r file.info(file.path(prelim_dth, "deathfull2019pre.csv"))$mtime`</h4>
+
+</br>
 
 files created:
 
